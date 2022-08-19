@@ -8,6 +8,7 @@ document.getElementById('submit-btn').addEventListener('click', function(){
     //
     if(email === 'nisherahman@gmail.com' && password === '1234'){
         console.log('valid user');
+        window.location.href = 'bank.html';
     }
     else{
         alert('invalid user');
